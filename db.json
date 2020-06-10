@@ -1,360 +1,315 @@
-[
-  {
-    "type": "header",
-    "version": "4.9.0.1",
-    "comment": "Export to JSON plugin for PHPMyAdmin"
-  },
-  {
-    "type": "database",
-    "name": "payment"
-  },
-  {
-    "type": "table",
-    "name": "costs",
-    "database": "payment",
-    "data": [
-      {
-        "date": "2020-03-02 18:32:08",
-        "id": "173",
-        "sum": "4015",
-        "currency": "uah",
-        "customer": "Веклич Дмитрий",
-        "note": "возврат",
-        "confirm": "confirm",
-        "date_payment": "2020-03-12 17:39:07",
-        "comission": "0",
-        "source": "ФОП Украина",
-        "source_id": null
-      },
-      {
-        "date": "2020-03-02 18:34:00",
-        "id": "174",
-        "sum": "2580",
-        "currency": "uah",
-        "customer": "Веклич Дмитрий",
-        "note": "возврат",
-        "confirm": "confirm",
-        "date_payment": "2020-03-12 17:39:21",
-        "comission": "0",
-        "source": "ФОП Украина",
-        "source_id": null
-      },
-      {
-        "date": "2020-03-03 14:38:25",
-        "id": "175",
-        "sum": "21000",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "X-Tick за март",
-        "confirm": "confirm",
-        "date_payment": "2020-03-10 10:23:09",
-        "comission": "0",
-        "source": "ИП Сбер",
-        "source_id": null
-      },
-      {
-        "date": "2020-03-03 16:14:08",
-        "id": "176",
-        "sum": "3000",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "пополнение Ютуб рекламы",
-        "confirm": "confirm",
-        "date_payment": "2020-05-04 20:58:14",
-        "comission": "0",
-        "source": "Яндекс.Деньги",
-        "source_id": "1"
-      },
-      {
-        "date": "2020-03-04 11:03:20",
-        "id": "177",
-        "sum": "25000",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "возврат клиенту",
-        "confirm": "confirm",
-        "date_payment": "2020-03-04 17:53:57",
-        "comission": "0",
-        "source": "Сбер физ. Пурнов А.Н.",
-        "source_id": null
-      },
-      {
-        "date": "2020-03-04 13:38:23",
-        "id": "180",
-        "sum": "30000",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "оплата ГР",
-        "confirm": "confirm",
-        "date_payment": "2020-03-10 10:46:14",
-        "comission": "0",
-        "source": "ИП Сбер",
-        "source_id": null
-      },
-      {
-        "date": "2020-04-03 12:02:30",
-        "id": "223",
-        "sum": "10000",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "частичный возврат клиенту",
-        "confirm": "confirm",
-        "date_payment": "2020-06-08 15:44:54",
-        "comission": "223",
-        "source": "ФОП Украина",
-        "source_id": null
-      },
-      {
-        "date": "2020-04-10 19:11:21",
-        "id": "245",
-        "sum": "22",
-        "currency": "rub",
-        "customer": "Администратор",
-        "note": "22",
-        "confirm": "confirm",
-        "date_payment": "2020-04-10 19:51:07",
-        "comission": "0.78",
-        "source": "Монобанк Соколовский",
-        "source_id": null
-      },
-      {
-        "date": "2020-06-08 16:04:23",
-        "id": "246",
-        "sum": "23",
-        "currency": "dol",
-        "customer": "Администратор",
-        "note": "3234523534",
-        "confirm": "reject",
-        "date_payment": "2020-06-08 16:05:59",
-        "comission": "0",
-        "source": "Отсутствует",
-        "source_id": null
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "links",
-    "database": "payment",
-    "data": [
-      {
-        "id": "1",
-        "link": "key=97776&prop=aa158438c956eb97d3c0eabb167c655c&t=1586330767812",
-        "created": null
-      },
-      {
-        "id": "2",
-        "link": "key=4074&prop=46eef95e7b4e44317dd474b8fdd96dd6&t=1586687928056",
-        "created": null
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "reminder",
-    "database": "payment",
-    "data": [
-      {
-        "id": "31",
-        "startDate": "2020-01-27 12:48:19",
-        "sum": "40000",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Оплата Бинотел на Яндекс.Деньги (номер кошелька уточнять)",
-        "dateNext": "2020-02-27",
-        "rpt": "78821549"
-      },
-      {
-        "id": "33",
-        "startDate": "2020-02-10 13:34:55",
-        "sum": "350",
-        "currency": "uah",
-        "customer": "Работник ШТАП",
-        "note": "Оплата за видео сервер (1 месяц)",
-        "dateNext": "2020-03-02",
-        "rpt": "78821549"
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "roles",
-    "database": "payment",
-    "data": [
-      {
-        "id": "1",
-        "name": "Admins",
-        "description": "Администраторы",
-        "user_id": "0",
-        "created": "2020-04-20 00:35:07",
-        "modified": "2014-05-30 17:34:33"
-      },
-      {
-        "id": "2",
-        "name": "Accountants",
-        "description": "Бухгалтера компании",
-        "user_id": "0",
-        "created": "2020-04-20 00:00:00",
-        "modified": "2014-05-30 17:34:33"
-      },
-      {
-        "id": "3",
-        "name": "Owners",
-        "description": "Директора и владельцы",
-        "user_id": "0",
-        "created": "2020-04-20 00:00:00",
-        "modified": "2014-05-30 17:34:54"
-      },
-      {
-        "id": "4",
-        "name": "Workers",
-        "description": "Другие работники",
-        "user_id": "0",
-        "created": "2020-04-20 00:04:00",
-        "modified": "2019-08-20 10:30:15"
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "sources",
-    "database": "payment",
-    "data": [
-      {
-        "id": "1",
-        "name": "Яндекс.Деньги",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "2",
-        "name": "ИП ПСБ",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "3",
-        "name": "ИП Сбер",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "4",
-        "name": "Сбер физ. Пурнов А.Н.",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "5",
-        "name": "Сбер физ. Кущ",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "6",
-        "name": "Монобанк Соколовский",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "7",
-        "name": "ФОП Украина",
-        "created": null,
-        "modified": null
-      },
-      {
-        "id": "8",
-        "name": "РБК",
-        "created": null,
-        "modified": null
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "template",
-    "database": "payment",
-    "data": [
-      {
-        "id": "48",
-        "name": "Тестовая оплата",
-        "sum": "9999.99",
-        "currency": "rub",
-        "customer": "Веклич Дмитрий",
-        "note": "ТЕСТ ТЕСТ тестовые реквизиты 123234532454325 345342  UED399432484 Тест Тест"
-      },
-      {
-        "id": "50",
-        "name": "Пополнение Selectel ",
-        "sum": "3000",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Пополнить Selectel"
-      },
-      {
-        "id": "51",
-        "name": "Бинотел",
-        "sum": "30000",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Оплата Бинотел"
-      },
-      {
-        "id": "52",
-        "name": "Оплата сервера (CRM, ЛК)",
-        "sum": "3032.79",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Оплата сервера (CRM, ЛК)"
-      },
-      {
-        "id": "54",
-        "name": "Google Store",
-        "sum": "139",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Оплата Google Store (школа)"
-      },
-      {
-        "id": "56",
-        "name": "Тильда",
-        "sum": "750",
-        "currency": "rub",
-        "customer": "Работник ШТАП",
-        "note": "Tilda оплата за 1 месяц"
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "name": "users",
-    "database": "payment",
-    "data": [
-      {
-        "id": "1",
-        "name": "Администратор",
-        "phone": "+380965358972",
-        "email": "yevheniiperekopskyi@gmail.com",
-        "password": "0c9c1e0b4686c85a906d92998a613604",
-        "hash": "0b548041c855efa88009a8e6c8a4c6db",
-        "role_id": "2",
-        "chat": "-392904444",
-        "created": null,
-        "modified": "2020-04-20 15:40:01"
-      },
-      {
-        "id": "31",
-        "name": "Дорошенко Дмитрий",
-        "phone": "+380665091787",
-        "email": "doroshenkodmytro@gmail.com",
-        "password": "d0a7c5ed3b93e9ce8634cf177314eba1",
-        "hash": "ca18dac1042133ad45c064a80c1b4a42",
-        "role_id": "1",
-        "chat": null,
-        "created": null,
-        "modified": "2020-04-20 15:40:01"
-      }
-    ]
-  }
-]
-
+{
+  "costs": [
+    {
+      "date": "2020-03-02 18:32:08",
+      "id": "173",
+      "sum": "4015",
+      "currency": "uah",
+      "customer": "Веклич Дмитрий",
+      "note": "возврат",
+      "confirm": "confirm",
+      "date_payment": "2020-03-12 17:39:07",
+      "comission": "0",
+      "source": "ФОП Украина",
+      "source_id": null
+    },
+    {
+      "date": "2020-03-02 18:34:00",
+      "id": "174",
+      "sum": "2580",
+      "currency": "uah",
+      "customer": "Веклич Дмитрий",
+      "note": "возврат",
+      "confirm": "confirm",
+      "date_payment": "2020-03-12 17:39:21",
+      "comission": "0",
+      "source": "ФОП Украина",
+      "source_id": null
+    },
+    {
+      "date": "2020-03-03 14:38:25",
+      "id": "175",
+      "sum": "21000",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "X-Tick за март",
+      "confirm": "confirm",
+      "date_payment": "2020-03-10 10:23:09",
+      "comission": "0",
+      "source": "ИП Сбер",
+      "source_id": null
+    },
+    {
+      "date": "2020-03-03 16:14:08",
+      "id": "176",
+      "sum": "3000",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "пополнение Ютуб рекламы",
+      "confirm": "confirm",
+      "date_payment": "2020-05-04 20:58:14",
+      "comission": "0",
+      "source": "Яндекс.Деньги",
+      "source_id": "1"
+    },
+    {
+      "date": "2020-03-04 11:03:20",
+      "id": "177",
+      "sum": "25000",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "возврат клиенту",
+      "confirm": "confirm",
+      "date_payment": "2020-03-04 17:53:57",
+      "comission": "0",
+      "source": "Сбер физ. Пурнов А.Н.",
+      "source_id": null
+    },
+    {
+      "date": "2020-03-04 13:38:23",
+      "id": "180",
+      "sum": "30000",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "оплата ГР",
+      "confirm": "confirm",
+      "date_payment": "2020-03-10 10:46:14",
+      "comission": "0",
+      "source": "ИП Сбер",
+      "source_id": null
+    },
+    {
+      "date": "2020-04-03 12:02:30",
+      "id": "223",
+      "sum": "10000",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "частичный возврат клиенту",
+      "confirm": "confirm",
+      "date_payment": "2020-06-08 15:44:54",
+      "comission": "223",
+      "source": "ФОП Украина",
+      "source_id": null
+    },
+    {
+      "date": "2020-04-10 19:11:21",
+      "id": "245",
+      "sum": "22",
+      "currency": "rub",
+      "customer": "Администратор",
+      "note": "22",
+      "confirm": "confirm",
+      "date_payment": "2020-04-10 19:51:07",
+      "comission": "0.78",
+      "source": "Монобанк Соколовский",
+      "source_id": null
+    },
+    {
+      "date": "2020-06-08 16:04:23",
+      "id": "246",
+      "sum": "23",
+      "currency": "dol",
+      "customer": "Администратор",
+      "note": "3234523534",
+      "confirm": "reject",
+      "date_payment": "2020-06-08 16:05:59",
+      "comission": "0",
+      "source": "Отсутствует",
+      "source_id": null
+    }
+  ],
+  "links": [
+    {
+      "id": "1",
+      "link": "key=97776&prop=aa158438c956eb97d3c0eabb167c655c&t=1586330767812",
+      "created": null
+    },
+    {
+      "id": "2",
+      "link": "key=4074&prop=46eef95e7b4e44317dd474b8fdd96dd6&t=1586687928056",
+      "created": null
+    }
+  ],
+  "reminder": [
+    {
+      "id": "31",
+      "startDate": "2020-01-27 12:48:19",
+      "sum": "40000",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Оплата Бинотел на Яндекс.Деньги (номер кошелька уточнять)",
+      "dateNext": "2020-02-27",
+      "rpt": "78821549"
+    },
+    {
+      "id": "33",
+      "startDate": "2020-02-10 13:34:55",
+      "sum": "350",
+      "currency": "uah",
+      "customer": "Работник ШТАП",
+      "note": "Оплата за видео сервер (1 месяц)",
+      "dateNext": "2020-03-02",
+      "rpt": "78821549"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admins",
+      "description": "Администраторы",
+      "user_id": "0",
+      "created": "2020-04-20 00:35:07",
+      "modified": "2014-05-30 17:34:33"
+    },
+    {
+      "id": "2",
+      "name": "Accountants",
+      "description": "Бухгалтера компании",
+      "user_id": "0",
+      "created": "2020-04-20 00:00:00",
+      "modified": "2014-05-30 17:34:33"
+    },
+    {
+      "id": "3",
+      "name": "Owners",
+      "description": "Директора и владельцы",
+      "user_id": "0",
+      "created": "2020-04-20 00:00:00",
+      "modified": "2014-05-30 17:34:54"
+    },
+    {
+      "id": "4",
+      "name": "Workers",
+      "description": "Другие работники",
+      "user_id": "0",
+      "created": "2020-04-20 00:04:00",
+      "modified": "2019-08-20 10:30:15"
+    }
+  ],
+  "sources": [
+    {
+      "id": "1",
+      "name": "Яндекс.Деньги",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "2",
+      "name": "ИП ПСБ",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "3",
+      "name": "ИП Сбер",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "4",
+      "name": "Сбер физ. Пурнов А.Н.",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "5",
+      "name": "Сбер физ. Кущ",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "6",
+      "name": "Монобанк Соколовский",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "7",
+      "name": "ФОП Украина",
+      "created": null,
+      "modified": null
+    },
+    {
+      "id": "8",
+      "name": "РБК",
+      "created": null,
+      "modified": null
+    }
+  ],
+  "template": [
+    {
+      "id": "48",
+      "name": "Тестовая оплата",
+      "sum": "9999.99",
+      "currency": "rub",
+      "customer": "Веклич Дмитрий",
+      "note": "ТЕСТ ТЕСТ тестовые реквизиты 123234532454325 345342  UED399432484 Тест Тест"
+    },
+    {
+      "id": "50",
+      "name": "Пополнение Selectel ",
+      "sum": "3000",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Пополнить Selectel"
+    },
+    {
+      "id": "51",
+      "name": "Бинотел",
+      "sum": "30000",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Оплата Бинотел"
+    },
+    {
+      "id": "52",
+      "name": "Оплата сервера (CRM, ЛК)",
+      "sum": "3032.79",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Оплата сервера (CRM, ЛК)"
+    },
+    {
+      "id": "54",
+      "name": "Google Store",
+      "sum": "139",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Оплата Google Store (школа)"
+    },
+    {
+      "id": "56",
+      "name": "Тильда",
+      "sum": "750",
+      "currency": "rub",
+      "customer": "Работник ШТАП",
+      "note": "Tilda оплата за 1 месяц"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Администратор",
+      "phone": "+380965358972",
+      "email": "yevheniiperekopskyi@gmail.com",
+      "password": "0c9c1e0b4686c85a906d92998a613604",
+      "hash": "0b548041c855efa88009a8e6c8a4c6db",
+      "role_id": "2",
+      "chat": "-392904444",
+      "created": null,
+      "modified": "2020-04-20 15:40:01"
+    },
+    {
+      "id": "31",
+      "name": "Дорошенко Дмитрий",
+      "phone": "+380665091787",
+      "email": "doroshenkodmytro@gmail.com",
+      "password": "d0a7c5ed3b93e9ce8634cf177314eba1",
+      "hash": "ca18dac1042133ad45c064a80c1b4a42",
+      "role_id": "1",
+      "chat": null,
+      "created": null,
+      "modified": "2020-04-20 15:40:01"
+    }
+  ]
+}
